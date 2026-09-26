@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: #0B0D10;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    width: 4%;
+    height: 4%;
+    margin: 10px;
+}
+
+header {
+    background-color:#C1121F;
+    color: #F5F5F5;
+    padding-bottom: 20px;
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+}
+
+#links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#links li {
+    display: inline;
+    border-right: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#links li:hover {
+    background-color:#C1121F;
+    
+}
+
+#links a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 8px 16px;
+    
+}
+
+nav {
+    background-color: #123C69;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1px;
+
+}
+
+section {
+    color:#F5F5F5;
+    padding: 20px;
+}
+
+#poster {
+    width: 20%;
+    height: 20%;
+    border: 4px solid #C1121F;
+    border-radius: 12px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td, caption {
+    border-collapse: collapse;
+    border: 2px solid #F5F5F5;
+    padding: 30px;
+    margin:auto;
+}
+
+th {
+    background-color: #123C69;
+    color: #F5F5F5;
+}
+
+caption {
+    font-size: 20px;
+    background-color: #C1121F;
+}
+
+td {
+    text-align: center;
+}
+
+.castImg {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #C1121F;
+    border-radius: 20px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+dd {
+    padding-bottom: 20px;
+}
+
+.spiderman-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spiderman-text {
+    flex: 1;
+}
+
+.spiderman-image {
+    width: 600px;
+    height: auto;
+    border: 4px solid #C1121F;
+    border-radius: 12px;
+}
+
+#bts {
+    width: 400px;
+    height: auto;
+    border: 4px solid #C1121F;
+    border-radius: 12px;
+}
+
+#bts:hover {
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 4px solid #C1121F;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
