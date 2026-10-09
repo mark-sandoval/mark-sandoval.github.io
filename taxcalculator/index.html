@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>Tax Calculator</h2>
+
+        Purchase Amount:
+        <input type="text" id="amount"><br><br>
+
+        <button onclick="calculate()">Calculate</button><br><br>
+
+        Tax Amount:
+        <input type="text" id="tax" disabled><br><br>
+
+        Total:
+        <input type="text" id="total" disabled>
+
+        <script>
+        function calculate() {
+            var amount = Number(document.getElementById("amount").value);
+            var tax = amount * 0.0825;
+            var total = amount + tax;
+
+            document.getElementById("tax").value = tax.toFixed(2);
+            document.getElementById("total").value = total.toFixed(2);
+        }
+        </script>
+
+    </body>
+</html>
